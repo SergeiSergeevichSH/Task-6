@@ -44,8 +44,8 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Model = " + model +
-                ", Color = " + color +
-                ", Year Of Production = " + yearOfProduction;
+        return "Модель = " + model +
+                ", Цвет = " + color +
+                ", Год выпуска = " + yearOfProduction;
     }
 }

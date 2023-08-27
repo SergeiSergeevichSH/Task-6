@@ -17,11 +17,11 @@ public class ServiceCar {
 
     {
         cars = List.of(
-                new Car("Jigul", "Yellow", 1981),
-                new Car("Niva", "Red", 1995),
-                new Car("Volga", "Black", 2000),
-                new Car("Lada", "Cherry", 2005),
-                new Car("Moskvich", "Green", 1985));
+                new Car("Жигуль", "Жёлтый", 1981),
+                new Car("Нива", "Красный", 1995),
+                new Car("Волга", "чёрный", 2000),
+                new Car("Лада", "Вишнёвый", 2005),
+                new Car("Москвич", "Зелёный", 1985));
     }
 
     public List<Car> getShowCars(int count) {
